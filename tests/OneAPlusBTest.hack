@@ -1,6 +1,6 @@
 use function Facebook\FBExpect\expect;
 use type Facebook\HackTest\{DataProvider, HackTest};
-// require_once(__DIR__.'/../vendor/autoload.hack');
+require_once(__DIR__.'/../vendor/autoload.hack');
 
 
 class OneAPlusBTest extends HackTest {
@@ -15,8 +15,10 @@ class OneAPlusBTest extends HackTest {
 
     <<DataProvider("provideSquareExamples")>>
     public function testAplusb(num $in, num $in2, num $expected_output): void {
-        // \Facebook\AutoloadMap\initialize();
-        expect(aplusb($in, $in2)) -> toBeSame($expected_output);
+        \Facebook\AutoloadMap\initialize();
+        // printf(aplusb($in, $in2));
+        $result = \LintCode\aplusb($in, $in2);
+        expect((float)$result) -> toBeSame((float)$expected_output);
     }
 }
 
