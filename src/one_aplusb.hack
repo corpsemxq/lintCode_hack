@@ -1,13 +1,8 @@
 namespace LintCode;
 
-function aplusb(num $x, num $y) {
-    // echo "".$x;
-    // echo $x;
-    // echo "".$y;
-    // echo $y;
-    // echo "\n";
-
-    return \bcadd((string) $x , (string) $y, 1);
+function aplusb(num $x, num $y):num {
+    $res = \bcadd((string) $x , (string) $y, 1);
+    return (float)$res;
 }
 
 // function aplusb(float $x, float $y): float {
@@ -23,8 +18,8 @@ function aplusb(num $x, num $y) {
 function main_aplusb(): noreturn {
     $expect = 3.3;
     $result =  aplusb(1.1,2.2);
-    echo gettype($expect);
-    echo gettype($result);
+    // echo gettype($expect);
+    // echo gettype($result);
     echo ((float)$expect === (float)$result) ? "TRUE" : "FALSE";
     exit(0);
 }
