@@ -9,9 +9,11 @@ php --version
   cd $(mktemp -d)
   curl https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 )
-composer install
+# composer install
 
-# hh_cliegnt
+php composer.phar require hhvm/hsl hhvm/hhvm-autoload
+
+hh_client
 vendor/bin/hacktest tests/
 # if !(hhvm --version | grep -q -- -dev); then
 #   vendor/bin/hhast-lint
