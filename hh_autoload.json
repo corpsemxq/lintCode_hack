@@ -1,8 +1,8 @@
 {
     "roots": [
-      "src/"
+      "src/",
+      "tests/"
     ],
     "devRoots": [
-      "tests/"
     ]
   }
