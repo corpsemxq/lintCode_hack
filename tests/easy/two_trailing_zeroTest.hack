@@ -1,6 +1,6 @@
 use function Facebook\FBExpect\expect;
 use type Facebook\HackTest\{DataProvider, HackTest};
-require_once(__DIR__.'/../vendor/autoload.hack');
+require_once(__DIR__.'/../../vendor/autoload.hack');
 
 class two_trailing_zeroTest extends HackTest {
     public function provoidTTZTexample(): vec<(int, int)> {

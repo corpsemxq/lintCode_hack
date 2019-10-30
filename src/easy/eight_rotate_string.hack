@@ -1,5 +1,5 @@
 namespace LintCode;
-require_once(__DIR__."/../vendor/autoload.hack");
+require_once(__DIR__.'/../../vendor/autoload.hack');
 
 class eight_rotate_string {
 

@@ -13,7 +13,7 @@
 // 	Explanation: 
 // 	5! = 120, so the output should be 1.
 
-require_once(__DIR__.'/../vendor/autoload.hack');
+require_once(__DIR__.'/../../vendor/autoload.hack');
 
 
 class two_trailing_zeros {

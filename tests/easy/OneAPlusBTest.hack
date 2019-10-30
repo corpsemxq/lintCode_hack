@@ -1,6 +1,6 @@
 use function Facebook\FBExpect\expect;
 use type Facebook\HackTest\{DataProvider, HackTest};
-require_once(__DIR__.'/../vendor/autoload.hack');
+require_once(__DIR__.'/../../vendor/autoload.hack');
 
 
 class OneAPlusBTest extends HackTest {

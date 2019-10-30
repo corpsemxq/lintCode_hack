@@ -1,6 +1,6 @@
 use function Facebook\FBExpect\expect;
 use type Facebook\HackTest\{DataProvider, HackTest};
-require_once(__DIR__.'/../vendor/autoload.hack');
+require_once(__DIR__.'/../../vendor/autoload.hack');
 
 class six_merge_two_sorted_arrayTest extends HackTest {
     public function provideSMTSATexample(): vec<(Vector<int>, Vector<int>, Vector<int>)> {
