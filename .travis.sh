@@ -19,16 +19,16 @@ php -r "unlink('composer-setup.php');"
 
 echo "1"
 
-php composer.phar require hhvm/hsl hhvm/hhvm-autoload
+# php composer.phar require hhvm/hsl hhvm/hhvm-autoload
 
-echo "2"
+# echo "2"
 
-hh_client
+# hh_client
 
-echo "3"
+# echo "3"
 
 
-vendor/bin/hacktest tests/
+# vendor/bin/hacktest tests/
 # if !(hhvm --version | grep -q -- -dev); then
 #   vendor/bin/hhast-lint
 # fi
