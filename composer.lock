@@ -8,21 +8,21 @@
     "packages": [
         {
             "name": "hhvm/hhvm-autoload",
-            "version": "v2.0.8",
+            "version": "v2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hhvm/hhvm-autoload.git",
-                "reference": "b5c0fb858e554c9b36a349aab2775c3914c7b2bf"
+                "reference": "97ad9b1248aa2bf6e04eafe1b49db3285726a5ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hhvm/hhvm-autoload/zipball/b5c0fb858e554c9b36a349aab2775c3914c7b2bf",
-                "reference": "b5c0fb858e554c9b36a349aab2775c3914c7b2bf",
+                "url": "https://api.github.com/repos/hhvm/hhvm-autoload/zipball/97ad9b1248aa2bf6e04eafe1b49db3285726a5ec",
+                "reference": "97ad9b1248aa2bf6e04eafe1b49db3285726a5ec",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0",
-                "hhvm": "^4.5",
+                "hhvm": "^4.25",
                 "hhvm/hsl": "^4.0"
             },
             "replace": {
@@ -51,20 +51,20 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-08-28T15:08:11+00:00"
+            "time": "2019-10-31T19:55:27+00:00"
         },
         {
             "name": "hhvm/hsl",
-            "version": "v4.25.0",
+            "version": "v4.25.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hhvm/hsl.git",
-                "reference": "99f223649efae32bdf028271ac95efb0ffffaa65"
+                "reference": "82343bc9edcd047c36858021ee3ee3117f8c79f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hhvm/hsl/zipball/99f223649efae32bdf028271ac95efb0ffffaa65",
-                "reference": "99f223649efae32bdf028271ac95efb0ffffaa65",
+                "url": "https://api.github.com/repos/hhvm/hsl/zipball/82343bc9edcd047c36858021ee3ee3117f8c79f9",
+                "reference": "82343bc9edcd047c36858021ee3ee3117f8c79f9",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "MIT"
             ],
             "description": "The Hack Standard Library",
-            "time": "2019-10-14T16:41:47+00:00"
+            "time": "2019-10-24T20:20:47+00:00"
         }
     ],
     "packages-dev": [

@@ -19,11 +19,13 @@ php -r "unlink('composer-setup.php');"
 
 echo "1"
 
-# php composer.phar require hhvm/hsl hhvm/hhvm-autoload
+php composer.phar require hhvm/hsl hhvm/hhvm-autoload
 
-# echo "2"
+echo "2"
 
-# hh_client
+cd lintCode_hack/
+
+hh_client
 
 # echo "3"
 
