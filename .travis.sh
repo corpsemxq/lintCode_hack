@@ -25,6 +25,9 @@ echo "2"
 
 ls -ltr
 
+cd vendor 
+ls -ltr
+
 cat hh_autoload.json
 
 hh_client
