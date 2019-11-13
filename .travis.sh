@@ -17,17 +17,7 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 
-echo "1"
-
 php composer.phar require hhvm/hsl hhvm/hhvm-autoload
-
-echo "2"
-
-ls -ltr
-cd vendor 
-ls -ltr
-cd ../
-vendor/autoload
 
 hh_client
 
