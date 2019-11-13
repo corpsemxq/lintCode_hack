@@ -30,6 +30,8 @@ ls -ltr
 
 cat hh_autoload.json
 
+vendor/autoload
+
 hh_client
 
 # echo "3"
