@@ -23,7 +23,9 @@ php composer.phar require hhvm/hsl hhvm/hhvm-autoload
 
 echo "2"
 
-cd lintCode_hack/
+ls -ltr
+
+pwd
 
 hh_client
 
