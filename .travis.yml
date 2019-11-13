@@ -7,5 +7,8 @@ env:
 install:
 - docker pull hhvm/hhvm:$HHVM_VERSION
 script:
+- ls -ltr
+- chmod 744 ./.travis.sh
+- ./.travis.sh
 - docker run --rm -w /var/source -v $(pwd):/var/source hhvm/hhvm:$HHVM_VERSION chmod 744 ./.travis.sh
 - docker run --rm -w /var/source -v $(pwd):/var/source hhvm/hhvm:$HHVM_VERSION ./.travis.sh
