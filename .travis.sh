@@ -25,7 +25,7 @@ echo "2"
 
 ls -ltr
 
-pwd
+cat hh_autoload.json
 
 hh_client
 
