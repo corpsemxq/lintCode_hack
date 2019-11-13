@@ -15,7 +15,7 @@ class eight_rotate_string {
 
 <<__EntryPoint>>
 function main_eight():void {
-    \Facebook\AutoloadMap\initialize();
+    Facebook\AutoloadMap\initialize();
     $obj = new eight_rotate_string();
     echo \var_dump($obj-> rotate_string("sb", 0));
 }
