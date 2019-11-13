@@ -24,12 +24,9 @@ php composer.phar require hhvm/hsl hhvm/hhvm-autoload
 echo "2"
 
 ls -ltr
-
 cd vendor 
 ls -ltr
-
-cat hh_autoload.json
-
+cd ../
 vendor/autoload
 
 hh_client
